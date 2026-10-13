@@ -1,30 +1,33 @@
-# Polyscript 0.1.0-beta.2 — Polyscript branding and public guides
+# Polyscript 0.1.0-beta.3 — Local bulk import
 
 For Apple Silicon Macs running macOS 15 or later. Ad-hoc signed and not notarized.
 
-- Polyscript's own icon for the Mac application, Dock, and app favicon.
-- Installation, user documentation, and release history hosted on the product website.
-- Guides for local models, transcription, search, source citations, corrections,
-  bookmarks, export, privacy, and troubleshooting.
+- Select up to 50 transcripts and recordings together with Bulk import.
+- Review each file's meeting date, context, permission, agreed use and optional saving.
+- Process files sequentially on this Mac with file and speech progress.
+- See individual file failures, stop current and pending work, and review unsaved transcripts temporarily.
+- Discard a temporary transcript when its permission is withdrawn. Closed or stopped queues never resume automatically.
 
-Includes local transcript/audio import, live transcription, optional meeting
-storage, keyword and semantic search, source-linked questions, corrections,
-bookmarks, revocation, deletion, and permitted text export. Speech, search, and
-answer processing run locally. Optional model downloads require explicit setup.
+TXT, SRT and VTT files can be up to 2 MB each. Recordings retain the 250 MB and two-hour limits.
+Completed authorized saves remain in the library when a queue stops. Fresh confirmations
+are required for every file in every new batch. Original files are not modified.
 
 Ask everyone involved for permission and agree on transcript use before every
 recording or import. Do not use or share transcripts outside that agreement.
-Interview use is prohibited, even with consent. Detected interviews cause
-terminal shutdown; detection is imperfect.
+Interview use is prohibited, even with consent. A detected interview stops the
+entire queue and exits the app immediately. Detection is imperfect.
 
-The package includes the native runtimes, their source archives and license
-notices, and the Electron/Chromium license notices. It includes no recordings,
-saved meetings, model weights, or development checkout.
+Local speech, search, source-linked questions, corrections, bookmarks and export
+remain available. Optional model downloads require explicit setup. The package
+includes native runtimes, their source archives and license notices, and the
+Electron/Chromium notices. It includes no recordings, saved meetings, model weights
+or development checkout.
 
 [Download](https://script.polymathlabs.xyz/download.html),
 [installation](https://script.polymathlabs.xyz/installation.html),
 [user guide](https://script.polymathlabs.xyz/docs.html), and
 [release history](https://script.polymathlabs.xyz/release-notes.html).
-Verify the ZIP with the attached `SHA256SUMS.txt`. The ZIP is 196,575,275 bytes.
 
-SHA-256: `286a40082b9e0fe3cd029572fe82181841d67c08e61766521267f0c695ce7601`.
+Verify the ZIP with the attached SHA256SUMS.txt. The ZIP is 196,579,870 bytes.
+
+SHA-256: 3d56d96a89bf358b372ab219e4c0f5ff4de358a5e1dd19b03cd8634bc546ffd0.

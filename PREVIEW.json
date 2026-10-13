@@ -1,13 +1,13 @@
 {
-  "version": "0.1.0-beta.2",
+  "version": "0.1.0-beta.3",
   "channel": "experimental-preview",
   "platform": "darwin",
   "architecture": "arm64",
   "targetMacOS": "15+",
-  "filename": "Polyscript-0.1.0-beta.2-mac-arm64.zip",
-  "bytes": 196575275,
-  "sha256": "286a40082b9e0fe3cd029572fe82181841d67c08e61766521267f0c695ce7601",
-  "sourceRevision": "8cc5e2b89fce250c489317dda969415744e07d17",
+  "filename": "Polyscript-0.1.0-beta.3-mac-arm64.zip",
+  "bytes": 196579870,
+  "sha256": "3d56d96a89bf358b372ab219e4c0f5ff4de358a5e1dd19b03cd8634bc546ffd0",
+  "sourceRevision": "3ee809d777dd9a249cb6e9f3356e103bda165ace",
   "signing": "ad-hoc",
   "notarized": false,
   "modelsIncluded": false
