@@ -8,7 +8,7 @@ Executable release assets for [Polyscript](https://script.polymathlabs.xyz/).
 - [Release notes](https://script.polymathlabs.xyz/release-notes.html)
 - [Privacy and agreed use](https://script.polymathlabs.xyz/privacy.html)
 
-Current version: **0.1.0-beta.3**, Apple Silicon, macOS 15 or later. The preview
+Current version: **0.1.0-beta.4**, Apple Silicon, macOS 15 or later. The preview
 is ad-hoc signed and not notarized; see the installation guide for first launch.
 Model downloads require explicit setup. Content processing stays local.
 
