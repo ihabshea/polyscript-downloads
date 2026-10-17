@@ -1,0 +1,28 @@
+{
+  "syntheticOnly": true,
+  "cases": 380,
+  "fixtureSha256": "5aeb7dc6d8a9dfdddaf84d20298567f1c3fde9432f3a676e79584ac56f82f781",
+  "denominators": {
+    "extraction": 280,
+    "predictedDecisionsAndCommitments": 120,
+    "labeledDecisionsAndCommitments": 120,
+    "citations": 340,
+    "historical": 40,
+    "unanswerable": 60
+  },
+  "metrics": {
+    "extractionPrecision": 1,
+    "extractionRecall": 1,
+    "citationCorrectness": 1,
+    "temporalCorrectness": 1,
+    "appropriateAbstention": 1
+  },
+  "unexpectedFetchAttempts": 0,
+  "failures": [],
+  "passed": true,
+  "limitation": "Deterministic English synthetic fixture, extractive engine, installed models not required. Fetch instrumentation is not an OS-level network audit. Does not establish real-room extraction or diarization accuracy.",
+  "version": "0.2.0-beta.3",
+  "sourceRevision": "8441cdbeae5caecf51262d2b4706a20152f3d28f",
+  "sourceDirty": false,
+  "completedAt": "2026-10-17T15:26:21.221Z"
+}

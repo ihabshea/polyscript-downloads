@@ -1,0 +1,247 @@
+{
+  "version": "0.2.0-beta.3",
+  "sourceRevision": "8441cdbeae5caecf51262d2b4706a20152f3d28f",
+  "syntheticOnly": true,
+  "machine": {
+    "model": "MacBookPro17,1",
+    "cpu": "Apple M1",
+    "memoryBytes": 8589934592,
+    "macOS": "15.1",
+    "coreNode": "22.17.0",
+    "electron": "44.7.0"
+  },
+  "core": {
+    "sourceRevision": "8441cdbeae5caecf51262d2b4706a20152f3d28f",
+    "sourceDirty": false,
+    "completedAt": "2026-10-17T15:30:29.935Z",
+    "status": "passed",
+    "syntheticOnly": true,
+    "tests": 169,
+    "passed": 169,
+    "failed": 0,
+    "skipped": 0
+  },
+  "desktopBundled": {
+    "sourceRevision": "8441cdbeae5caecf51262d2b4706a20152f3d28f",
+    "sourceDirty": false,
+    "startedAt": "2026-10-17T15:41:55.920Z",
+    "completedAt": "2026-10-17T15:46:34.800Z",
+    "status": "passed",
+    "entry": "bundled",
+    "syntheticOnly": true,
+    "nativeModelsEnabled": true,
+    "counts": {
+      "passed": 32,
+      "failed": 0,
+      "skipped": 0
+    }
+  },
+  "intelligence": {
+    "syntheticOnly": true,
+    "cases": 380,
+    "fixtureSha256": "5aeb7dc6d8a9dfdddaf84d20298567f1c3fde9432f3a676e79584ac56f82f781",
+    "denominators": {
+      "extraction": 280,
+      "predictedDecisionsAndCommitments": 120,
+      "labeledDecisionsAndCommitments": 120,
+      "citations": 340,
+      "historical": 40,
+      "unanswerable": 60
+    },
+    "metrics": {
+      "extractionPrecision": 1,
+      "extractionRecall": 1,
+      "citationCorrectness": 1,
+      "temporalCorrectness": 1,
+      "appropriateAbstention": 1
+    },
+    "unexpectedFetchAttempts": 0,
+    "failures": [],
+    "passed": true,
+    "limitation": "Deterministic English synthetic fixture, extractive engine, installed models not required. Fetch instrumentation is not an OS-level network audit. Does not establish real-room extraction or diarization accuracy.",
+    "version": "0.2.0-beta.3",
+    "sourceRevision": "8441cdbeae5caecf51262d2b4706a20152f3d28f",
+    "sourceDirty": false,
+    "completedAt": "2026-10-17T15:26:21.221Z"
+  },
+  "native": {
+    "platform": "darwin/arm64",
+    "node": "v24.21.0",
+    "syntheticOnly": true,
+    "bundledRuntimes": true,
+    "packagedEngine": true,
+    "embeddedElectron": "44.7.0",
+    "sourceRevision": "8441cdbeae5caecf51262d2b4706a20152f3d28f",
+    "sourceDirty": false,
+    "checks": {
+      "whisper-tiny-sha256": true,
+      "nomic-embed-sha256": true,
+      "qwen-small-sha256": true,
+      "realWhisperSpeech": true,
+      "experimentalSpeakerGrouping": {
+        "clusters": 1,
+        "voicedPassages": 2,
+        "realIdentityInferred": false
+      },
+      "realEmbeddings": 12,
+      "realMnemosyneInvestigation": {
+        "supportedQuotes": 5,
+        "localSemanticRetrievalEnabled": true
+      },
+      "realLocalAnswer": {
+        "supportedQuotes": 2,
+        "semantic": true
+      },
+      "actualLlamaWorkerCancellation": true,
+      "realSpeechInterviewImportStopsBeforeSave": true,
+      "externalNetworkAttempts": 0
+    },
+    "milliseconds": {
+      "transcription": 130989,
+      "indexing": 104765,
+      "answer": 7942
+    },
+    "sampledPeakRssMiB": {
+      "transcription": 341,
+      "indexing": 139,
+      "answer": 684
+    }
+  },
+  "speech": {
+    "syntheticOnly": true,
+    "platform": "darwin/arm64",
+    "language": "English",
+    "speechModel": "whisper-tiny",
+    "bundledRuntimes": true,
+    "packagedEngine": true,
+    "embeddedElectron": "44.7.0",
+    "sourceRevision": "8441cdbeae5caecf51262d2b4706a20152f3d28f",
+    "sourceDirty": false,
+    "cases": [
+      {
+        "id": "decisions",
+        "expectedTokens": 15,
+        "observedTokens": 15,
+        "editDistance": 0,
+        "wordErrorRate": 0,
+        "milliseconds": 1732
+      },
+      {
+        "id": "actions",
+        "expectedTokens": 13,
+        "observedTokens": 13,
+        "editDistance": 0,
+        "wordErrorRate": 0,
+        "milliseconds": 1464
+      },
+      {
+        "id": "proposals",
+        "expectedTokens": 14,
+        "observedTokens": 15,
+        "editDistance": 2,
+        "wordErrorRate": 0.1429,
+        "milliseconds": 1549
+      }
+    ],
+    "limits": [
+      "Generated speech only; not a benchmark of accents, rooms, physical microphones or multilingual detection.",
+      "Interview detection remains a contextual heuristic."
+    ],
+    "silencePassages": 0,
+    "recognizedInterviewTerminated": true,
+    "savedInterviewRecords": 0
+  },
+  "package": {
+    "bundleId": "com.ihabshea.polyscript",
+    "architecture": "arm64",
+    "manifestHashesVerified": 29,
+    "applicationFiles": [
+      "BUILD.json",
+      "core/demo.mjs",
+      "core/diarization.mjs",
+      "core/duplicates.mjs",
+      "core/engine.mjs",
+      "core/import-files.mjs",
+      "core/knowledge.mjs",
+      "core/legacy-sqlite.mjs",
+      "core/library.mjs",
+      "core/mnemosyne.mjs",
+      "core/models.mjs",
+      "core/native-worker.mjs",
+      "core/polybase-runtime.json",
+      "core/polybase-worker.mjs",
+      "core/polybase.mjs",
+      "core/recall.mjs",
+      "core/records.mjs",
+      "core/runtime.mjs",
+      "core/safety.mjs",
+      "core/store.mjs",
+      "core/transcript.mjs",
+      "desktop/icons/polyscript.png",
+      "desktop/main.mjs",
+      "desktop/preload.cjs",
+      "dist/assets/index-27Rv14JP.js",
+      "dist/assets/index-_5GbZJZH.css",
+      "dist/favicon.svg",
+      "dist/index.html",
+      "dist/pcm-worklet.js",
+      "package.json"
+    ],
+    "microphoneDescriptionPresent": true,
+    "appIcon": {
+      "file": "polyscript.icns",
+      "sha256": "c9ec54fe888c8e129b6b58e3f4ca9f76369618e97213743850ef8183087503f1"
+    },
+    "rendererFaviconVerified": true,
+    "adHocSignatureVerified": true,
+    "nativeRuntimes": {
+      "platform": "darwin/arm64",
+      "verifiedFiles": 19,
+      "executableFiles": 11,
+      "externalLibraryDependencies": 0,
+      "mediaProtocols": [
+        "file",
+        "pipe"
+      ],
+      "sourceArchivesIncluded": 3
+    },
+    "storageRuntime": {
+      "backend": "polybase",
+      "protocol": 1,
+      "sourceRevision": "16921d2cf5481231d1f8b2873600c804d622f201",
+      "sha256": "0140dc5970f3f4f57638d3954b2c988434732cf1bbce551822349d6ea3280ae3",
+      "profile": "release"
+    },
+    "bundledStorageResolutionVerified": true,
+    "missingBundledStorageRefused": true,
+    "sourceRevision": "8441cdbeae5caecf51262d2b4706a20152f3d28f",
+    "sourceDirty": false,
+    "version": "0.2.0-beta.3"
+  },
+  "archive": {
+    "sha256": "681c4149a4babf938446051cdfe2a5404b78447b8bc251b4e068c33a0528bbbb",
+    "bytes": 197413293,
+    "crcIntegrity": true,
+    "safeArchivePaths": true,
+    "symlinksContained": true,
+    "applicationInventoryMatches": true,
+    "applicationInventoryEntries": 636,
+    "strictDeepSignatures": true,
+    "modelsIncluded": false,
+    "userDataIncluded": false
+  },
+  "qualificationAttempts": [
+    {
+      "stage": "initial bundled desktop run",
+      "outcome": "25 passed; first native scenario exceeded its 120-second UI wait; six remaining scenarios were not run",
+      "diagnosis": "A sampled Whisper process was waiting for macOS Metal shader compilation. Packaged native verification and a complete desktop rerun are recorded separately."
+    }
+  ],
+  "limits": [
+    "Synthetic fixtures only; no personal recordings or saved libraries were used.",
+    "Local checks are not hosted CI, physical installation, permission or manual accessibility qualification.",
+    "Fetch instrumentation is not an OS-wide network audit.",
+    "Conservative English contradiction matching can miss implicit or paraphrased conflicts. Multilingual embedding fixtures establish bounded inference, not retrieval quality.",
+    "Recorded durations and sampled owned-process RSS are observations, not a controlled performance benchmark."
+  ]
+}

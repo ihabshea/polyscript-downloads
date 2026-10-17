@@ -1,1 +1,1 @@
-c95e639e003ce8fd3d774320770b1e46bec05d1fe6455b3ae6c4c0d1e9946760  Polyscript-0.1.0-beta.4-mac-arm64.zip
+681c4149a4babf938446051cdfe2a5404b78447b8bc251b4e068c33a0528bbbb  Polyscript-0.2.0-beta.3-mac-arm64.zip
