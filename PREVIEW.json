@@ -1,14 +1,21 @@
 {
-  "version": "0.1.0-beta.4",
+  "version": "0.2.0-beta.1",
+  "sourceRevision": "36fcbf145c4c0e88737e0d9b61a79a12591b6fbf",
+  "sha256": "48e71c647bdedb0160e108413e10b8e89e950ef622b74e0478f76add227f39c8",
+  "bytes": 196604242,
+  "signing": "ad-hoc",
+  "notarized": false,
   "channel": "experimental-preview",
   "platform": "darwin",
   "architecture": "arm64",
   "targetMacOS": "15+",
-  "filename": "Polyscript-0.1.0-beta.4-mac-arm64.zip",
-  "bytes": 196586598,
-  "sha256": "c95e639e003ce8fd3d774320770b1e46bec05d1fe6455b3ae6c4c0d1e9946760",
-  "sourceRevision": "c412d1f20bc60525a58d4a62a6738cdfcfd20674",
-  "signing": "ad-hoc",
-  "notarized": false,
-  "modelsIncluded": false
+  "filename": "Polyscript-0.2.0-beta.1-mac-arm64.zip",
+  "modelsIncluded": false,
+  "releaseQualified": false,
+  "physicalDeviceQualified": false,
+  "ci": {
+    "status": "blocked",
+    "reason": "GitHub Actions runner did not start because account billing or spending limit blocked it",
+    "url": "https://github.com/ihabshea/polyscript/actions/runs/39017655019"
+  }
 }

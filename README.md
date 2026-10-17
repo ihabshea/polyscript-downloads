@@ -8,10 +8,14 @@ Executable release assets for [Polyscript](https://script.polymathlabs.xyz/).
 - [Release notes](https://script.polymathlabs.xyz/release-notes.html)
 - [Privacy and agreed use](https://script.polymathlabs.xyz/privacy.html)
 
-Current version: **0.1.0-beta.4**, Apple Silicon, macOS 15 or later. The preview
+Current version: **0.2.0-beta.1**, Apple Silicon, macOS 15 or later. The preview
 is ad-hoc signed and not notarized; see the installation guide for first launch.
 Model downloads require explicit setup. Content processing stays local.
 
 The package includes Electron/Chromium notices and bundled native runtime source
 archives and notices. It includes no recordings, meetings, model weights, or
 development checkout. Verify the download with the attached `SHA256SUMS.txt`.
+
+Project Mnemosyne adds decision history, actions, possible contradictions, evidence inspection, a graph, and date comparisons over authorized meeting transcripts. Review source passages; extraction and acoustic speaker grouping have documented limits.
+
+This experimental preview passed the attached local synthetic checks. GitHub Actions could not start because of an account billing or spending-limit block. Physical-device qualification remains pending. The full beta release gate is not marked complete.
